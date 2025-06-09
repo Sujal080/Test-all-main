@@ -18,5 +18,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy your code
 COPY . .
 
-# Run the Extractor module
-CMD ["sh", "-c", "python -m Extractor"]
+# 🔁 Just run app.py which runs both Flask and Extractor
+CMD ["python", "app.py"]
